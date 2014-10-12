@@ -121,7 +121,7 @@ var move = function(gameData, helpers) {
 
 // The "Safe Diamond Miner"
 // This hero will attempt to capture enemy diamond mines.
-var move = function(gameData, helpers) {
+/*var move = function(gameData, helpers) {
   var myHero = gameData.activeHero;
 
   //Get stats on the nearest health well
@@ -144,7 +144,7 @@ var move = function(gameData, helpers) {
     //If healthy, go capture a diamond mine!
     return helpers.findNearestNonTeamDiamondMine(gameData);
   }
-};
+};*/
 
 
 /*
@@ -176,13 +176,13 @@ var move = function(gameData, helpers) {
 };
 */
 
-/*
+
 // The "Coward"
 // This hero will try really hard not to die.
 var move = function(gameData, helpers) {
   return helpers.findNearestHealthWell(gameData);
 };
-*/
+
 
 // Export the move function here
 module.exports = move;
